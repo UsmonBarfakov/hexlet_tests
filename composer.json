@@ -1,0 +1,16 @@
+{
+    "name": "hexlet/tests",
+    "description": "Project to learing automatical testing code in Hexlet.io",
+    "autoload": {
+        "files": [
+            "src/StringUtils.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "UsmonBarfakov",
+            "email": "barfakov@gmail.com"
+        }
+    ],
+    "require": {}
+}

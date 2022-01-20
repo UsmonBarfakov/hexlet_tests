@@ -2,8 +2,12 @@
     "name": "hexlet/tests",
     "description": "Project to learing automatical testing code in Hexlet.io",
     "autoload": {
+        "PSR-4": [
+
+        ],
         "files": [
-            "src/StringUtils.php"
+            "src/StringUtils.php",
+            "vendor/webmozart/assert/src/Assert.php"
         ]
     },
     "authors": [
@@ -12,5 +16,7 @@
             "email": "barfakov@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "webmozart/assert": "^1.10"
+    }
 }
